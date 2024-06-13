@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Pacifico&family=Shadows+Into+Light&family=Tiny5&display=swap');*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    /* --primary-color: rgb(7,7,7); */
+    --primary-color:#212529;
+    --text-color: #ebebeb;
+    --button-color: #4062bb;
+    --hover-color:#52489c;
+}
+body {
+    font-family: "Shadows Into Light", cursive;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    font-size:xx-large;
+
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#guess{
+    height: 40px;
+    width: 45%;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#btn{
+    width: 15%;
+    font-size: larger;
+    border-radius: 5px;
+    background-color: var(--button-color);
+    color: var(--text-color);
+}
+#btn:hover{
+    background-color: red;
+}
+.gsc{
+    font-size:30px;
+}
+
+#img-hide{
+    display: none;
+}
